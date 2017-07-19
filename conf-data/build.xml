@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<project default="init" basedir=".">
+	<property name="build.home" value="build" />
+
+	<target name="init">
+		<mkdir dir="${build.home}" />
+	</target>
+
+	<target name="clean">
+		<delete dir="${build.home}" />
+	</target>
+
+	<target name="adapter_data_zip" depends="clean,init">
+		<zip destfile="${build.home}/adapter_data.zip">
+			<zipfileset dir="website" prefix="website"/>
+			<zipfileset dir="dac_sys" prefix="dac_sys"/>
+		</zip>
+	</target>
+
+	<target name="website_zip" depends="init">
+		<zip destfile="${build.home}/website.zip" basedir="website" />
+	</target>
+
+	<target name="dac_sys_zip" depends="init">
+		<zip destfile="${build.home}/dac_sys.zip" basedir="dac_sys" />
+	</target>
+</project>

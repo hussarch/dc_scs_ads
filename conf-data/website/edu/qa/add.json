@@ -1,0 +1,49 @@
+{
+  "title": "增加文档",
+  "fields": [
+    {
+      "label": "标题",
+      "name": "title",
+      "hidden": false,
+      "size": 100
+    },
+    {
+      "label": "摘要",
+      "name": "summary",
+      "hidden": false
+    },
+    {
+      "label": "信息来源",
+      "name": "sourceFrom",
+      "hidden": false,
+      "type": "select"
+    },
+    {
+      "label": "作者",
+      "name": "author",
+      "hidden": false
+    },
+    {
+      "label": "发布时间",
+      "name": "publishedAt",
+      "hidden": false
+    },
+    {
+      "label": "内容",
+      "name": "content",
+      "hidden": false
+    }
+  ],
+  "buttons": [
+    {
+      "label": "确定",
+      "action": "add",
+      "method": "add"
+    },
+    {
+      "label": "取消",
+      "action": "close",
+      "method": "close"
+    }
+  ]
+}

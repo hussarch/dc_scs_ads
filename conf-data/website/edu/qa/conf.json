@@ -1,0 +1,9 @@
+{
+  "serviceId": "tjjd_doc",
+  "mainPage": "table",
+  "renderedJs": "List.js",
+  "params": {
+    "type": ""
+  },
+  "clazz": "com.xx.Entity"
+}
