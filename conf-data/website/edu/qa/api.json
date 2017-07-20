@@ -1,7 +1,7 @@
 {
   "list": {
-    "serviceId": "docList",
-    "title": "文档列表",
+    "serviceId": "qaList",
+    "title": "常见问答列表",
     "params": {
       "type": ""
     },
@@ -11,24 +11,12 @@
         "name": "id"
       },
       {
-        "label": "标题",
-        "name": "title"
+        "label": "问题",
+        "name": "question"
       },
       {
-        "label": "摘要",
-        "name": "summary"
-      },
-      {
-        "label": "信息来源",
-        "name": "sourceFrom"
-      },
-      {
-        "label": "作者",
-        "name": "author"
-      },
-      {
-        "label": "发布时间",
-        "name": "publishedAt"
+        "label": "答案",
+        "name": "answer"
       },
       {
         "label": "创建时间",
@@ -37,8 +25,8 @@
     ]
   },
   "detail": {
-    "serviceId": "docDetail",
-    "title": "文档详情",
+    "serviceId": "qaDetail",
+    "title": "常见问答详情",
     "params": {
       "id": ""
     },
@@ -48,28 +36,12 @@
         "name": "id"
       },
       {
-        "label": "标题",
-        "name": "title"
+        "label": "问题",
+        "name": "question"
       },
       {
-        "label": "摘要",
-        "name": "summary"
-      },
-      {
-        "label": "信息来源",
-        "name": "sourceFrom"
-      },
-      {
-        "label": "作者",
-        "name": "author"
-      },
-      {
-        "label": "发布时间",
-        "name": "publishedAt"
-      },
-      {
-        "label": "内容",
-        "name": "content"
+        "label": "答案",
+        "name": "answer"
       },
       {
         "label": "创建时间",

@@ -1,9 +1,9 @@
 {
-  "serviceId": "tjjd_doc",
+  "serviceId": "question_answer",
   "mainPage": "table",
   "renderedJs": "List.js",
   "params": {
     "type": ""
   },
-  "clazz": "com.xx.Entity"
+  "clazz": "com.shhxzq.dc.scs.conf.data.generator.website.edu.QuestionAnswerEntity"
 }

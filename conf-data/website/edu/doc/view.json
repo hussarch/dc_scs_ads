@@ -1,0 +1,54 @@
+{
+  "title": "查看文档",
+  "fields": [
+    {
+      "label": "ID",
+      "name": "id",
+      "hidden": true,
+      "type": "string"
+    },
+    {
+      "label": "标题",
+      "name": "title",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "摘要",
+      "name": "summary",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "信息来源",
+      "name": "sourceFrom",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "作者",
+      "name": "author",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "发布时间",
+      "name": "publishedAt",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "内容",
+      "name": "content",
+      "hidden": false,
+      "type": "string"
+    }
+  ],
+  "buttons": [
+    {
+      "label": "取消",
+      "action": "close",
+      "method": "close"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "title": "查看文档",
+  "title": "查看常见问答",
   "fields": [
     {
       "label": "ID",
@@ -8,38 +8,14 @@
       "type": "string"
     },
     {
-      "label": "标题",
-      "name": "title",
+      "label": "问题",
+      "name": "question",
       "hidden": false,
       "type": "string"
     },
     {
-      "label": "摘要",
-      "name": "summary",
-      "hidden": false,
-      "type": "string"
-    },
-    {
-      "label": "信息来源",
-      "name": "sourceFrom",
-      "hidden": false,
-      "type": "string"
-    },
-    {
-      "label": "作者",
-      "name": "author",
-      "hidden": false,
-      "type": "string"
-    },
-    {
-      "label": "发布时间",
-      "name": "publishedAt",
-      "hidden": false,
-      "type": "string"
-    },
-    {
-      "label": "内容",
-      "name": "content",
+      "label": "答案",
+      "name": "answer",
       "hidden": false,
       "type": "string"
     }

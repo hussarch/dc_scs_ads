@@ -1,20 +1,15 @@
 {
-  "title": "常见问答列表",
+  "title": "文档列表",
   "searchFields": [
     {
-      "label": "问题",
-      "name": "question",
+      "label": "标题",
+      "name": "title",
       "hidden": false
     },
     {
-      "label": "答案",
-      "name": "answer",
+      "label": "作者",
+      "name": "author",
       "hidden": false
-    },
-    {
-      "label": "序号",
-      "name": "indexNum",
-      "hidden": true
     }
   ],
   "buttons": [
@@ -47,21 +42,33 @@
       "type": "string"
     },
     {
-      "label": "问题",
-      "name": "question",
+      "label": "标题",
+      "name": "title",
       "hidden": false,
       "type": "string"
     },
     {
-      "label": "答案",
-      "name": "answer",
+      "label": "摘要",
+      "name": "summary",
       "hidden": false,
       "type": "string"
     },
     {
-      "label": "序号",
-      "name": "indexNum",
-      "hidden": true,
+      "label": "信息来源",
+      "name": "sourceFrom",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "作者",
+      "name": "author",
+      "hidden": false,
+      "type": "string"
+    },
+    {
+      "label": "发布时间",
+      "name": "publishedAt",
+      "hidden": false,
       "type": "string"
     }
   ]

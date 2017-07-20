@@ -1,5 +1,5 @@
 {
-  "title": "修改文档",
+  "title": "修改常见问答",
   "fields": [
     {
       "label": "ID",
@@ -7,36 +7,16 @@
       "hidden": true
     },
     {
-      "label": "标题",
-      "name": "title",
+      "label": "问题",
+      "name": "question",
       "hidden": false,
       "size": 100
     },
     {
-      "label": "摘要",
-      "name": "summary",
-      "hidden": false
-    },
-    {
-      "label": "信息来源",
-      "name": "sourceFrom",
+      "label": "答案",
+      "name": "answer",
       "hidden": false,
-      "type": "select"
-    },
-    {
-      "label": "作者",
-      "name": "author",
-      "hidden": false
-    },
-    {
-      "label": "发布时间",
-      "name": "publishedAt",
-      "hidden": false
-    },
-    {
-      "label": "内容",
-      "name": "content",
-      "hidden": false
+      "size": 500
     }
   ],
   "buttons": [

@@ -22,5 +22,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>com.shhxzq.dc.scs</groupId>
+    	<artifactId>scs-frame-cdg</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    	<exclusions>
+    		<exclusion>
+    			<artifactId>spring*</artifactId>
+    		</exclusion>
+    	</exclusions>
+    </dependency>
   </dependencies>
 </project>
