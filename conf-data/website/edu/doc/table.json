@@ -2,14 +2,10 @@
   "title": "文档列表",
   "searchFields": [
     {
-      "label": "标题",
-      "name": "title",
-      "hidden": false
+      "name": "title"
     },
     {
-      "label": "作者",
-      "name": "author",
-      "hidden": false
+      "name": "author"
     }
   ],
   "buttons": [
@@ -36,40 +32,22 @@
   ],
   "columns": [
     {
-      "label": "ID",
-      "name": "id",
-      "hidden": true,
-      "type": "string"
+      "name": "id"
     },
     {
-      "label": "标题",
-      "name": "title",
-      "hidden": false,
-      "type": "string"
+      "name": "title"
     },
     {
-      "label": "摘要",
-      "name": "summary",
-      "hidden": false,
-      "type": "string"
+      "name": "summary"
     },
     {
-      "label": "信息来源",
-      "name": "sourceFrom",
-      "hidden": false,
-      "type": "string"
+      "name": "sourceFrom"
     },
     {
-      "label": "作者",
-      "name": "author",
-      "hidden": false,
-      "type": "string"
+      "name": "author"
     },
     {
-      "label": "发布时间",
-      "name": "publishedAt",
-      "hidden": false,
-      "type": "string"
+      "name": "publishedAt"
     }
   ]
 }

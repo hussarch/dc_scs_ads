@@ -1,54 +1,39 @@
 {
-  "title": "修改文档",
-  "fields": [
-    {
-      "label": "ID",
-      "name": "id",
-      "hidden": true
-    },
-    {
-      "label": "标题",
-      "name": "title",
-      "hidden": false,
-      "size": 100
-    },
-    {
-      "label": "摘要",
-      "name": "summary",
-      "hidden": false
-    },
-    {
-      "label": "信息来源",
-      "name": "sourceFrom",
-      "hidden": false,
-      "type": "select"
-    },
-    {
-      "label": "作者",
-      "name": "author",
-      "hidden": false
-    },
-    {
-      "label": "发布时间",
-      "name": "publishedAt",
-      "hidden": false
-    },
-    {
-      "label": "内容",
-      "name": "content",
-      "hidden": false
-    }
-  ],
-  "buttons": [
-    {
-      "label": "确定",
-      "action": "update",
-      "method": "update"
-    },
-    {
-      "label": "取消",
-      "action": "close",
-      "method": "close"
-    }
-  ]
+    "title": "修改",
+    "fields": [
+        {
+            "name": "id",
+            "hidden": true
+        },
+        {
+            "name": "title"
+        },
+        {
+            "name": "summary"
+        },
+        {
+            "name": "sourceFrom"
+        },
+        {
+            "name": "author"
+        },
+        {
+            "name": "publishedAt"
+        },
+        {
+            "name": "content"
+        }
+    ],
+    "buttons": [
+        {
+            "label": "确定",
+            "action": "update",
+            "method": "update"
+        },
+        {
+            "label": "取消",
+            "action": "close",
+            "method": "close"
+        }
+    ]
 }
