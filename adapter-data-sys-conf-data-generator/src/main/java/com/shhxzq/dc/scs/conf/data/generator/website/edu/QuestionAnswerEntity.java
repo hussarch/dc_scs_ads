@@ -5,32 +5,32 @@ import java.util.Date;
 import com.shhxzq.dc.scs.frm.base.common.type.ApiType;
 import com.shhxzq.dc.scs.frm.base.common.type.PageType;
 import com.shhxzq.dc.scs.frm.cdf.templete.anotations.ApiDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.FieldDesc;
+import com.shhxzq.dc.scs.frm.cdf.templete.anotations.FieldsDesc;
 import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageDesc;
 
 /**
  * @author XiaoYi Created on 2017-07-20 11:00:26
  */
-@PageDesc(path = { "website", "edu", "qa" }, serviceId = "question_answer", name = "常见问答")
+@PageDesc(path = { "website", "edu", "qa" }, name = "常见问答")
 @ApiDesc(serviceId = "qaList", name = "常见问答列表", params = { "type" })
 @ApiDesc(serviceId = "qaDetail", name = "常见问答详情", params = { "id" })
 public class QuestionAnswerEntity {
 
-    @FieldDesc(label = "ID", hidden = true, notShowIn = { PageType.add }, apiType = { ApiType.list, ApiType.detail })
+    @FieldsDesc(label = "ID", hidden = true, notShowIn = { PageType.add }, apiType = { ApiType.list, ApiType.detail })
     private Integer id;
 
-    @FieldDesc(label = "问题", search = true, max = 100, apiType = { ApiType.list, ApiType.detail })
+    @FieldsDesc(label = "问题", search = true, max = 100, apiType = { ApiType.list, ApiType.detail })
     private String question;
 
-    @FieldDesc(label = "答案", search = true, max = 500, apiType = { ApiType.list, ApiType.detail })
+    @FieldsDesc(label = "答案", search = true, max = 500, apiType = { ApiType.list, ApiType.detail })
     private String answer;
 
     private String type;
 
-    @FieldDesc(label = "序号", search = true, showIn = { PageType.table }, hidden = true)
+    @FieldsDesc(label = "序号", search = true, showIn = { PageType.table }, hidden = true)
     private Integer indexNum;
 
-    @FieldDesc(label = "创建时间", showIn = {}, apiType = { ApiType.list, ApiType.detail })
+    @FieldsDesc(label = "创建时间", showIn = {}, apiType = { ApiType.list, ApiType.detail })
     private Date createdAt;
     private Date updatedAt;
 
