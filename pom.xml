@@ -10,6 +10,7 @@
   <packaging>pom</packaging>
   
   <modules>
-  	<module>conf-data</module>
+  	<module>adapter-data-sys-conf-data</module>
+    <module>adapter-data-sys-conf-data-generator</module>
   </modules>
 </project>
