@@ -26,7 +26,8 @@
       "label": "标题",
       "name": "title",
       "type": "string",
-      "length": 200
+      "length": 200,
+      "required": true
     },
     {
       "label": "摘要",
@@ -37,7 +38,8 @@
     {
       "label": "消息来源",
       "name": "sourceFrom",
-      "type": "select"
+      "type": "select",
+      "required": true
     },
     {
       "label": "作者",
@@ -56,14 +58,14 @@
       "length": 20000
     },
     {
-      "label": "创建时间",
-      "name": "createdAt",
-      "type": "datetime"
-    },
-    {
       "label": "评论",
       "name": "comments",
       "type": "multi_select"
+    },
+    {
+      "label": "创建时间",
+      "name": "createdAt",
+      "type": "datetime"
     },
     {
       "label": "修改时间",
