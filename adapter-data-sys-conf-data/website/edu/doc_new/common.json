@@ -1,0 +1,130 @@
+{
+  "name": "文档",
+  "mainPage": "table",
+  "renderedJs": "List.js",
+  "category": {
+    "fieldName": "type",
+    "group": [
+      {
+        "fieldValue": "news",
+        "name": "资讯新闻"
+      },
+      {
+        "fieldValue": "edu",
+        "name": "文档"
+      }
+    ]
+  },
+  "clazz": "com.shhxzq.dc.scs.frm.cdg.entity.DocumentEntity",
+  "fields": [
+    {
+      "label": "主键",
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "label": "标题",
+      "name": "title",
+      "type": "string",
+      "length": 200
+    },
+    {
+      "label": "摘要",
+      "name": "summary",
+      "type": "string",
+      "length": 500
+    },
+    {
+      "label": "消息来源",
+      "name": "sourceFrom",
+      "type": "select"
+    },
+    {
+      "label": "作者",
+      "name": "author",
+      "type": "select"
+    },
+    {
+      "label": "发布时间",
+      "name": "publishedAt",
+      "type": "datetime"
+    },
+    {
+      "label": "正文",
+      "name": "content",
+      "type": "string",
+      "length": 20000
+    },
+    {
+      "label": "创建时间",
+      "name": "createdAt",
+      "type": "datetime"
+    },
+    {
+      "label": "评论",
+      "name": "comments",
+      "type": "multi_select"
+    },
+    {
+      "label": "修改时间",
+      "name": "updatedAt",
+      "type": "datetime"
+    }
+  ],
+  "buttons": {
+    "add": {
+      "label": "确定",
+      "action": "add",
+      "method": "add"
+    },
+    "update": {
+      "label": "确定",
+      "action": "update",
+      "method": "update"
+    },
+    "delete": {
+      "label": "删除",
+      "action": "delete",
+      "method": "delete"
+    },
+    "view": {
+      "label": "查看",
+      "action": "view",
+      "method": "view"
+    },
+    "search": {
+      "label": "查询",
+      "action": "search",
+      "method": "search"
+    },
+    "close": {
+      "label": "取消",
+      "action": "close",
+      "method": "close"
+    }
+  },
+  "dicts": {
+    "sourceFrom": {
+      "enumDict": [
+        {
+          "key": "腾讯",
+          "value": "tencent"
+        },
+        {
+          "key": "网易",
+          "value": "wangyi"
+        },
+        {
+          "key": "中央电视台",
+          "value": "cctv"
+        }
+      ]
+    },
+    "author": {
+      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.scs.frm.cdg.entity.AuthorEntity where  1=1"
+    },
+    "comments": {
+      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.scs.frm.cdg.entity.CommentEntity where  1=1"
+    }
+  }
+}

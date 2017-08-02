@@ -1,16 +1,21 @@
 {
-  "sourceFrom": [
-    {
-      "key": "腾讯",
-      "value": "tencent"
+    "sourceFrom": {
+        "enumDict": [
+            {
+                "key": "腾讯",
+                "value": "tencent"
+            },
+            {
+                "key": "网易",
+                "value": "wangyi"
+            },
+            {
+                "key": "中央电视台",
+                "value": "cctv"
+            }
+        ]
     },
-    {
-      "key": "网易",
-      "value": "wangyi"
-    },
-    {
-      "key": "中央电视台",
-      "value": "cctv"
+    "address": {
+        "entityDictHql": "select id, name from Entity where 1=1"
     }
-  ]
 }

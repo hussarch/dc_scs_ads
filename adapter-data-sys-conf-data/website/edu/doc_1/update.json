@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "hidden": true
+    },
+    {
+      "name": "title"
+    },
+    {
+      "name": "summary"
+    },
+    {
+      "name": "sourceFrom"
+    },
+    {
+      "name": "author"
+    },
+    {
+      "name": "publishedAt"
+    },
+    {
+      "name": "content"
+    }
+  ],
+  "buttons": [
+    {
+      "label": "确定",
+      "action": "update",
+      "method": "update"
+    },
+    {
+      "label": "取消",
+      "action": "close",
+      "method": "close"
+    }
+  ]
+}

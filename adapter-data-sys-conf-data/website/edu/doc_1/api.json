@@ -1,0 +1,60 @@
+{
+  "list": {
+    "title": "常见问答列表",
+    "params": {
+      "type": ""
+    },
+    "fields": [
+      {
+        "name": "id"
+      },
+      {
+        "name": "title"
+      },
+      {
+        "name": "summary"
+      },
+      {
+        "name": "sourceFrom"
+      },
+      {
+        "name": "author"
+      },
+      {
+        "name": "publishedAt"
+      },
+      {
+        "name": "content"
+      }
+    ]
+  },
+  "detail": {
+    "title": "常见问答详情",
+    "params": {
+      "id": ""
+    },
+    "fields": [
+      {
+        "name": "id"
+      },
+      {
+        "name": "title"
+      },
+      {
+        "name": "summary"
+      },
+      {
+        "name": "sourceFrom"
+      },
+      {
+        "name": "author"
+      },
+      {
+        "name": "publishedAt"
+      },
+      {
+        "name": "content"
+      }
+    ]
+  }
+}

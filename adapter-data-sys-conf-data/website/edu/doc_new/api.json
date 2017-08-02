@@ -1,0 +1,34 @@
+{
+  "list": {
+    "title": "常见问答列表",
+    "params": {
+      "type": ""
+    },
+    "fields": [
+      "id",
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "comments"
+    ]
+  },
+  "detail": {
+    "title": "常见问答详情",
+    "params": {
+      "id": ""
+    },
+    "fields": [
+      "id",
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "comments"
+    ]
+  }
+}
