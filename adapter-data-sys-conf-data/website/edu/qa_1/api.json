@@ -1,0 +1,52 @@
+{
+  "list": {
+    "serviceId": "qaList",
+    "title": "常见问答列表",
+    "params": {
+      "type": ""
+    },
+    "fields": [
+      {
+        "label": "ID",
+        "name": "id"
+      },
+      {
+        "label": "问题",
+        "name": "question"
+      },
+      {
+        "label": "答案",
+        "name": "answer"
+      },
+      {
+        "label": "创建时间",
+        "name": "createdAt"
+      }
+    ]
+  },
+  "detail": {
+    "serviceId": "qaDetail",
+    "title": "常见问答详情",
+    "params": {
+      "id": ""
+    },
+    "fields": [
+      {
+        "label": "ID",
+        "name": "id"
+      },
+      {
+        "label": "问题",
+        "name": "question"
+      },
+      {
+        "label": "答案",
+        "name": "answer"
+      },
+      {
+        "label": "创建时间",
+        "name": "createdAt"
+      }
+    ]
+  }
+}

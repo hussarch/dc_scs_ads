@@ -1,65 +1,34 @@
 {
   "list": {
-    "serviceId": "docList",
     "title": "文档列表",
     "params": {
       "type": ""
     },
     "fields": [
-      {
-        "name": "id"
-      },
-      {
-        "name": "title"
-      },
-      {
-        "name": "summary"
-      },
-      {
-        "name": "sourceFrom"
-      },
-      {
-        "name": "author"
-      },
-      {
-        "name": "publishedAt"
-      },
-      {
-        "name": "createdAt"
-      }
+      "id",
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "indexNum"
     ]
   },
   "detail": {
-    "serviceId": "docDetail",
     "title": "文档详情",
     "params": {
       "id": ""
     },
     "fields": [
-      {
-        "name": "id"
-      },
-      {
-        "name": "title"
-      },
-      {
-        "name": "summary"
-      },
-      {
-        "name": "sourceFrom"
-      },
-      {
-        "name": "author"
-      },
-      {
-        "name": "publishedAt"
-      },
-      {
-        "name": "content"
-      },
-      {
-        "name": "createdAt"
-      }
+      "id",
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "indexNum"
     ]
   }
 }

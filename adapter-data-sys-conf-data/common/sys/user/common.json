@@ -1,21 +1,8 @@
 {
-  "name": "文档",
+  "name": "用户",
   "mainPage": "table",
   "renderedJs": "List.js",
-  "category": {
-    "fieldName": "type",
-    "group": [
-      {
-        "fieldValue": "news",
-        "name": "资讯新闻"
-      },
-      {
-        "fieldValue": "edu",
-        "name": "文档"
-      }
-    ]
-  },
-  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.DocumentEntity",
+  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.UserEntity",
   "fields": [
     {
       "label": "主键",
@@ -24,50 +11,45 @@
       "type": "int"
     },
     {
-      "label": "标题",
-      "name": "title",
-      "clazz": "java.lang.String",
-      "type": "string",
-      "length": 200
-    },
-    {
-      "label": "摘要",
-      "name": "summary",
-      "clazz": "java.lang.String",
-      "type": "string",
-      "length": 500
-    },
-    {
-      "label": "消息来源",
-      "name": "sourceFrom",
-      "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.SourceFrom",
-      "type": "select"
-    },
-    {
-      "label": "作者",
-      "name": "author",
+      "label": "注册名称",
+      "name": "name",
       "clazz": "java.lang.String",
       "type": "string",
       "length": 20
     },
     {
-      "label": "发布时间",
-      "name": "publishedAt",
-      "clazz": "java.util.Date",
-      "type": "datetime"
-    },
-    {
-      "label": "正文",
-      "name": "content",
+      "label": "密码",
+      "name": "password",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20000
+      "length": 50
     },
     {
-      "label": "序号",
-      "name": "indexNum",
-      "clazz": "java.lang.Integer",
-      "type": "int"
+      "label": "姓名",
+      "name": "realName",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 20
+    },
+    {
+      "label": "电子邮件",
+      "name": "email",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 30
+    },
+    {
+      "label": "电话号码",
+      "name": "phone",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 20
+    },
+    {
+      "label": "角色",
+      "name": "roles",
+      "clazz": "java.util.Set",
+      "type": "multi_select"
     },
     {
       "label": "创建时间",
@@ -115,21 +97,8 @@
     }
   },
   "dicts": {
-    "sourceFrom": {
-      "enumDict": [
-        {
-          "key": "腾讯",
-          "value": "tencent"
-        },
-        {
-          "key": "网易",
-          "value": "wangyi"
-        },
-        {
-          "key": "中央电视台",
-          "value": "cctv"
-        }
-      ]
+    "roles": {
+      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.da.hxbisys.jpa.entity.RoleEntity where  1=1"
     }
   }
 }

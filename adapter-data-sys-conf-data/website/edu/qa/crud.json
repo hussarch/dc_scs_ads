@@ -1,0 +1,56 @@
+{
+  "table": {
+    "searchFields": [
+      "question"
+    ],
+    "fields": [
+      "id",
+      "question",
+      "indexNum"
+    ],
+    "buttons": [
+      "add",
+      "update",
+      "delete",
+      "search"
+    ]
+  },
+  "add": {
+    "fields": [
+      "question",
+      "answer",
+      "indexNum"
+    ],
+    "buttons": [
+      "add",
+      "close"
+    ]
+  },
+  "update": {
+    "fields": [
+      "question",
+      "answer",
+      "indexNum"
+    ],
+    "hiddenfields": [
+      "id"
+    ],
+    "buttons": [
+      "update",
+      "close"
+    ]
+  },
+  "view": {
+    "fields": [
+      "question",
+      "answer",
+      "indexNum"
+    ],
+    "hiddenfields": [
+      "id"
+    ],
+    "buttons": [
+      "close"
+    ]
+  }
+}

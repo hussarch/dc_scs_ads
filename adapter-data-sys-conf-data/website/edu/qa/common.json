@@ -1,21 +1,25 @@
 {
-  "name": "文档",
+  "name": "问答",
   "mainPage": "table",
   "renderedJs": "List.js",
   "category": {
     "fieldName": "type",
     "group": [
       {
-        "fieldValue": "news",
-        "name": "资讯新闻"
+        "fieldValue": "HGT",
+        "name": "沪港通"
       },
       {
-        "fieldValue": "edu",
-        "name": "文档"
+        "fieldValue": "ZXFG",
+        "name": "政策法规"
+      },
+      {
+        "fieldValue": "BASIC",
+        "name": "基础知识"
       }
     ]
   },
-  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.DocumentEntity",
+  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity",
   "fields": [
     {
       "label": "主键",
@@ -24,44 +28,18 @@
       "type": "int"
     },
     {
-      "label": "标题",
-      "name": "title",
-      "clazz": "java.lang.String",
-      "type": "string",
-      "length": 200
-    },
-    {
-      "label": "摘要",
-      "name": "summary",
+      "label": "问题",
+      "name": "question",
       "clazz": "java.lang.String",
       "type": "string",
       "length": 500
     },
     {
-      "label": "消息来源",
-      "name": "sourceFrom",
-      "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.SourceFrom",
-      "type": "select"
-    },
-    {
-      "label": "作者",
-      "name": "author",
+      "label": "答案",
+      "name": "answer",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20
-    },
-    {
-      "label": "发布时间",
-      "name": "publishedAt",
-      "clazz": "java.util.Date",
-      "type": "datetime"
-    },
-    {
-      "label": "正文",
-      "name": "content",
-      "clazz": "java.lang.String",
-      "type": "string",
-      "length": 20000
+      "length": 1000
     },
     {
       "label": "序号",
@@ -112,24 +90,6 @@
       "label": "取消",
       "action": "close",
       "method": "close"
-    }
-  },
-  "dicts": {
-    "sourceFrom": {
-      "enumDict": [
-        {
-          "key": "腾讯",
-          "value": "tencent"
-        },
-        {
-          "key": "网易",
-          "value": "wangyi"
-        },
-        {
-          "key": "中央电视台",
-          "value": "cctv"
-        }
-      ]
     }
   }
 }

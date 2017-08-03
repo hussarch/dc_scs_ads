@@ -1,0 +1,70 @@
+{
+  "table": {
+    "searchFields": [
+      "name",
+      "email"
+    ],
+    "fields": [
+      "id",
+      "name",
+      "password",
+      "realName",
+      "email",
+      "phone",
+      "roles"
+    ],
+    "buttons": [
+      "add",
+      "update",
+      "delete",
+      "search"
+    ]
+  },
+  "add": {
+    "fields": [
+      "name",
+      "password",
+      "realName",
+      "email",
+      "phone",
+      "roles"
+    ],
+    "buttons": [
+      "add",
+      "close"
+    ]
+  },
+  "update": {
+    "fields": [
+      "name",
+      "password",
+      "realName",
+      "email",
+      "phone",
+      "roles"
+    ],
+    "hiddenfields": [
+      "id"
+    ],
+    "buttons": [
+      "update",
+      "close"
+    ]
+  },
+  "view": {
+    "fields": [
+      "name",
+      "password",
+      "realName",
+      "email",
+      "phone",
+      "roles"
+    ],
+    "hiddenfields": [
+      "id"
+    ],
+    "buttons": [
+      "close"
+    ]
+  }
+}

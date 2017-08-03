@@ -1,9 +1,0 @@
-{
-  "serviceId": "document",
-  "mainPage": "table",
-  "renderedJs": "List.js",
-  "params": {
-    "type": ""
-  },
-  "clazz": "com.xx.Entity"
-}

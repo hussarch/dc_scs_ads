@@ -20,11 +20,13 @@
     {
       "label": "主键",
       "name": "id",
+      "clazz": "java.lang.Integer",
       "type": "int"
     },
     {
       "label": "标题",
       "name": "title",
+      "clazz": "java.lang.String",
       "type": "string",
       "length": 200,
       "required": true
@@ -32,44 +34,52 @@
     {
       "label": "摘要",
       "name": "summary",
+      "clazz": "java.lang.String",
       "type": "string",
       "length": 500
     },
     {
       "label": "消息来源",
       "name": "sourceFrom",
+      "clazz": "com.shhxzq.dc.scs.frm.cdg.entity.SourceFrom",
       "type": "select",
       "required": true
     },
     {
       "label": "作者",
       "name": "author",
+      "clazz": "com.shhxzq.dc.scs.frm.cdg.entity.AuthorEntity",
       "type": "select"
     },
     {
       "label": "发布时间",
       "name": "publishedAt",
+      "clazz": "java.util.Date",
       "type": "datetime"
     },
     {
       "label": "正文",
       "name": "content",
+      "clazz": "java.lang.String",
       "type": "string",
       "length": 20000
     },
     {
       "label": "评论",
       "name": "comments",
+      "clazz": "java.util.Set",
       "type": "multi_select"
     },
     {
       "label": "创建时间",
       "name": "createdAt",
+      "clazz": "java.util.Date",
       "type": "datetime"
     },
     {
       "label": "修改时间",
       "name": "updatedAt",
+      "clazz": "java.util.Date",
       "type": "datetime"
     }
   ],

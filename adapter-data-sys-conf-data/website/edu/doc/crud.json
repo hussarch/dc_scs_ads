@@ -1,0 +1,73 @@
+{
+  "table": {
+    "searchFields": [
+      "title",
+      "sourceFrom"
+    ],
+    "fields": [
+      "id",
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "indexNum"
+    ],
+    "buttons": [
+      "add",
+      "update",
+      "delete",
+      "search"
+    ]
+  },
+  "add": {
+    "fields": [
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "indexNum"
+    ],
+    "buttons": [
+      "add",
+      "close"
+    ]
+  },
+  "update": {
+    "fields": [
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "indexNum"
+    ],
+    "hiddenfields": [
+      "id"
+    ],
+    "buttons": [
+      "update",
+      "close"
+    ]
+  },
+  "view": {
+    "fields": [
+      "title",
+      "summary",
+      "sourceFrom",
+      "author",
+      "publishedAt",
+      "content",
+      "indexNum"
+    ],
+    "hiddenfields": [
+      "id"
+    ],
+    "buttons": [
+      "close"
+    ]
+  }
+}
