@@ -31,8 +31,8 @@ public class DemoTempletGenerator {
             entityClass = RoleEntity.class)
     @PageFieldDesc(type = PageType.search, showFileds = {"name", "email"})
     @PageFieldDesc(type = PageType.table, notShowFileds = {"createdAt", "updatedAt"})
-    @PageFieldDesc(type = PageType.add, notShowFileds = {"id", "createdAt", "updatedAt"})
-    @PageFieldDesc(type = PageType.update, notShowFileds = {"createdAt", "updatedAt"}, hiddenFileds = "id")
+    @PageFieldDesc(type = PageType.add, notShowFileds = {"id", "users", "createdAt", "updatedAt"})
+    @PageFieldDesc(type = PageType.update, notShowFileds = {"users", "createdAt", "updatedAt"}, hiddenFileds = "id")
     @PageFieldDesc(type = PageType.view, notShowFileds = {"createdAt", "updatedAt"}, hiddenFileds = "id")
     public void defineRoleEntity(){
     }
@@ -66,7 +66,7 @@ public class DemoTempletGenerator {
     
     public static void main(String[] args) {
         String path = "/Users/sailor/git/adapter-data-sys/adapter-data-sys-conf-data/";
-        TempletGenerator.writeTemplet(DemoTempletGenerator.class, "defineUserEntity", path, true);
+        TempletGenerator.writeTemplet(DemoTempletGenerator.class, "defineRoleEntity", path, true);
 
     }
 }

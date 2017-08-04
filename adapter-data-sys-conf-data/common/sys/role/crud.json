@@ -21,8 +21,7 @@
     "fields": [
       "name",
       "optAuth",
-      "comments",
-      "users"
+      "comments"
     ],
     "buttons": [
       "add",
@@ -33,8 +32,7 @@
     "fields": [
       "name",
       "optAuth",
-      "comments",
-      "users"
+      "comments"
     ],
     "hiddenfields": [
       "id"
