@@ -1,17 +1,14 @@
 {
   "table": {
     "searchFields": [
-      "name",
-      "email"
+      "name"
     ],
     "fields": [
       "id",
       "name",
-      "password",
-      "realName",
-      "email",
-      "phone",
-      "roles"
+      "optAuth",
+      "comments",
+      "users"
     ],
     "buttons": [
       "add",
@@ -23,11 +20,9 @@
   "add": {
     "fields": [
       "name",
-      "password",
-      "realName",
-      "email",
-      "phone",
-      "roles"
+      "optAuth",
+      "comments",
+      "users"
     ],
     "buttons": [
       "add",
@@ -37,11 +32,9 @@
   "update": {
     "fields": [
       "name",
-      "password",
-      "realName",
-      "email",
-      "phone",
-      "roles"
+      "optAuth",
+      "comments",
+      "users"
     ],
     "hiddenfields": [
       "id"
@@ -54,11 +47,9 @@
   "view": {
     "fields": [
       "name",
-      "password",
-      "realName",
-      "email",
-      "phone",
-      "roles"
+      "optAuth",
+      "comments",
+      "users"
     ],
     "hiddenfields": [
       "id"

@@ -11,39 +11,44 @@
       "type": "int"
     },
     {
-      "label": "注册名称",
+      "label": "用户名",
       "name": "name",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20
+      "length": 20,
+      "required": true
     },
     {
       "label": "密码",
       "name": "password",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 50
+      "length": 50,
+      "required": true
     },
     {
       "label": "姓名",
       "name": "realName",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20
+      "length": 20,
+      "required": true
     },
     {
       "label": "电子邮件",
       "name": "email",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 30
+      "length": 30,
+      "required": true
     },
     {
       "label": "电话号码",
       "name": "phone",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20
+      "length": 20,
+      "required": true
     },
     {
       "label": "角色",

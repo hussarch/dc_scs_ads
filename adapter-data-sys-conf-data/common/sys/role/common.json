@@ -2,7 +2,7 @@
   "name": "角色",
   "mainPage": "table",
   "renderedJs": "List.js",
-  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.UserEntity",
+  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.RoleEntity",
   "fields": [
     {
       "label": "主键",
@@ -11,43 +11,30 @@
       "type": "int"
     },
     {
-      "label": "注册名称",
+      "label": "名称",
       "name": "name",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20
+      "length": 20,
+      "required": true
     },
     {
-      "label": "密码",
-      "name": "password",
+      "label": "操作权限",
+      "name": "optAuth",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 50
+      "length": 1000
     },
     {
-      "label": "姓名",
-      "name": "realName",
+      "label": "说明",
+      "name": "comments",
       "clazz": "java.lang.String",
       "type": "string",
-      "length": 20
+      "length": 200
     },
     {
-      "label": "电子邮件",
-      "name": "email",
-      "clazz": "java.lang.String",
-      "type": "string",
-      "length": 30
-    },
-    {
-      "label": "电话号码",
-      "name": "phone",
-      "clazz": "java.lang.String",
-      "type": "string",
-      "length": 20
-    },
-    {
-      "label": "角色",
-      "name": "roles",
+      "label": "用户",
+      "name": "users",
       "clazz": "java.util.Set",
       "type": "multi_select"
     },
@@ -97,8 +84,8 @@
     }
   },
   "dicts": {
-    "roles": {
-      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.da.hxbisys.jpa.entity.RoleEntity where  1=1"
+    "users": {
+      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.da.hxbisys.jpa.entity.UserEntity where  1=1"
     }
   }
 }

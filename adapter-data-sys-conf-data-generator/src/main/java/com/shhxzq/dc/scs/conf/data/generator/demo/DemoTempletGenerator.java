@@ -1,5 +1,6 @@
 package com.shhxzq.dc.scs.conf.data.generator.demo;
 
+import com.shhxzq.dc.da.hxbisys.jpa.entity.RoleEntity;
 import com.shhxzq.dc.da.hxbisys.jpa.entity.UserEntity;
 import com.shhxzq.dc.da.hxbisys.jpa.entity.demo.DocumentEntity;
 import com.shhxzq.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity;
@@ -27,7 +28,7 @@ public class DemoTempletGenerator {
     }
     
     @PageDesc(path = { "common", "sys", "role" }, name = "角色", 
-            entityClass = UserEntity.class)
+            entityClass = RoleEntity.class)
     @PageFieldDesc(type = PageType.search, showFileds = {"name", "email"})
     @PageFieldDesc(type = PageType.table, notShowFileds = {"createdAt", "updatedAt"})
     @PageFieldDesc(type = PageType.add, notShowFileds = {"id", "createdAt", "updatedAt"})
@@ -65,7 +66,7 @@ public class DemoTempletGenerator {
     
     public static void main(String[] args) {
         String path = "/Users/sailor/git/adapter-data-sys/adapter-data-sys-conf-data/";
-        TempletGenerator.writeTemplet(DemoTempletGenerator.class, "defineQaEntity", path, true);
+        TempletGenerator.writeTemplet(DemoTempletGenerator.class, "defineUserEntity", path, true);
 
     }
 }
