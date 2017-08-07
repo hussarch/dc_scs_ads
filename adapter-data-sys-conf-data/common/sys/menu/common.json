@@ -1,0 +1,105 @@
+{
+  "name": "导航菜单",
+  "clazz": "com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity",
+  "fields": [
+    {
+      "label": "主键",
+      "name": "id",
+      "clazz": "java.lang.Integer",
+      "type": "int"
+    },
+    {
+      "label": "系统名称",
+      "name": "sysName",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 50,
+      "required": true
+    },
+    {
+      "label": "菜单名称",
+      "name": "name",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 50,
+      "required": true
+    },
+    {
+      "label": "父节点",
+      "name": "parent",
+      "clazz": "com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity",
+      "type": "select"
+    },
+    {
+      "label": "顺序",
+      "name": "order",
+      "clazz": "java.lang.Integer",
+      "type": "int"
+    },
+    {
+      "label": "图片地址",
+      "name": "imageUrl",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 200
+    },
+    {
+      "label": "指向目标地址",
+      "name": "targetUrl",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 200
+    },
+    {
+      "label": "链接地址",
+      "name": "hrefUrl",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 200
+    },
+    {
+      "label": "默认链接地址",
+      "name": "defaultUrl",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 200
+    },
+    {
+      "label": "主机",
+      "name": "host",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 200
+    },
+    {
+      "label": "状态",
+      "name": "status",
+      "clazz": "java.lang.Integer",
+      "type": "int"
+    },
+    {
+      "label": "备注",
+      "name": "remark",
+      "clazz": "java.lang.String",
+      "type": "string",
+      "length": 500
+    },
+    {
+      "label": "创建时间",
+      "name": "createdAt",
+      "clazz": "java.util.Date",
+      "type": "datetime"
+    },
+    {
+      "label": "修改时间",
+      "name": "updatedAt",
+      "clazz": "java.util.Date",
+      "type": "datetime"
+    }
+  ],
+  "dicts": {
+    "parent": {
+      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity where  1=1"
+    }
+  }
+}

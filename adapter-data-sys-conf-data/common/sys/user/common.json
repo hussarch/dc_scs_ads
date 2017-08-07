@@ -2,7 +2,7 @@
   "name": "用户",
   "mainPage": "table",
   "renderedJs": "List.js",
-  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.UserEntity",
+  "clazz": "com.shhxzq.dc.scs.frm.core.jpa.entity.common.UserEntity",
   "fields": [
     {
       "label": "主键",
@@ -103,7 +103,7 @@
   },
   "dicts": {
     "roles": {
-      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.da.hxbisys.jpa.entity.RoleEntity where  1=1"
+      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.scs.frm.core.jpa.entity.common.RoleEntity where  1=1"
     }
   }
 }

@@ -1,7 +1,5 @@
 package com.shhxzq.dc.scs.conf.data.generator.demo;
 
-import com.shhxzq.dc.da.hxbisys.jpa.entity.RoleEntity;
-import com.shhxzq.dc.da.hxbisys.jpa.entity.UserEntity;
 import com.shhxzq.dc.da.hxbisys.jpa.entity.demo.DocumentEntity;
 import com.shhxzq.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity;
 import com.shhxzq.dc.scs.frm.base.common.type.PageType;
@@ -17,25 +15,6 @@ import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageFieldDesc;
  */
 public class DemoTempletGenerator {
     
-    @PageDesc(path = { "common", "sys", "user" }, name = "用户", 
-            entityClass = UserEntity.class)
-    @PageFieldDesc(type = PageType.search, showFileds = {"name", "email"})
-    @PageFieldDesc(type = PageType.table, notShowFileds = {"password", "createdAt", "updatedAt"})
-    @PageFieldDesc(type = PageType.add, notShowFileds = {"id", "createdAt", "updatedAt"})
-    @PageFieldDesc(type = PageType.update, notShowFileds = {"createdAt", "updatedAt"}, hiddenFileds = "id")
-    @PageFieldDesc(type = PageType.view, notShowFileds = {"createdAt", "updatedAt"}, hiddenFileds = "id")
-    public void defineUserEntity() {
-    }
-    
-    @PageDesc(path = { "common", "sys", "role" }, name = "角色", 
-            entityClass = RoleEntity.class)
-    @PageFieldDesc(type = PageType.search, showFileds = {"name", "email"})
-    @PageFieldDesc(type = PageType.table, notShowFileds = {"createdAt", "updatedAt"})
-    @PageFieldDesc(type = PageType.add, notShowFileds = {"id", "users", "createdAt", "updatedAt"})
-    @PageFieldDesc(type = PageType.update, notShowFileds = {"users", "createdAt", "updatedAt"}, hiddenFileds = "id")
-    @PageFieldDesc(type = PageType.view, notShowFileds = {"createdAt", "updatedAt"}, hiddenFileds = "id")
-    public void defineRoleEntity(){
-    }
     
     @PageDesc(path = { "website", "edu", "doc" }, name = "文档", category = "type", entityClass = DocumentEntity.class)
     @PageFieldDesc(type = PageType.search, showFileds = {"title", "sourceFrom"})

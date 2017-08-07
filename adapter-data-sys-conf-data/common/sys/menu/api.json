@@ -1,0 +1,22 @@
+{
+  "list": {
+    "title": "导航菜单列表",
+    "params": {
+      "sysName": ""
+    },
+    "fields": [
+      "id",
+      "sysName",
+      "name",
+      "parent",
+      "order",
+      "imageUrl",
+      "targetUrl",
+      "hrefUrl",
+      "defaultUrl",
+      "host",
+      "status",
+      "remark"
+    ]
+  }
+}
