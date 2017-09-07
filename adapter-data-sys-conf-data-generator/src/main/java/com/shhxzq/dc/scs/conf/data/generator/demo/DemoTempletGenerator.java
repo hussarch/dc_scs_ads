@@ -46,6 +46,5 @@ public class DemoTempletGenerator {
     public static void main(String[] args) {
         String path = "/Users/sailor/git/adapter-data-sys/adapter-data-sys-conf-data/";
         TempletGenerator.writeTemplet(DemoTempletGenerator.class, "defineRoleEntity", path, true);
-
     }
 }

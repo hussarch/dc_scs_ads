@@ -3,7 +3,6 @@ package com.shhxzq.dc.scs.conf.data.generator.common;
 import com.shhxzq.dc.scs.frm.base.common.type.PageType;
 import com.shhxzq.dc.scs.frm.cdf.TempletGenerator;
 import com.shhxzq.dc.scs.frm.cdf.templete.anotations.ApiDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.CategoryDesc;
 import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageDesc;
 import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageFieldDesc;
 import com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity;
