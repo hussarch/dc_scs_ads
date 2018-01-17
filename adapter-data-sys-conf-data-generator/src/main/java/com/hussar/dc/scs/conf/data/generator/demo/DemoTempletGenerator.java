@@ -1,13 +1,13 @@
-package com.shhxzq.dc.scs.conf.data.generator.demo;
+package com.hussar.dc.scs.conf.data.generator.demo;
 
-import com.shhxzq.dc.da.hxbisys.jpa.entity.demo.DocumentEntity;
-import com.shhxzq.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity;
-import com.shhxzq.dc.scs.frm.base.common.type.PageType;
-import com.shhxzq.dc.scs.frm.cdf.TempletGenerator;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.ApiDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.CategoryDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageFieldDesc;
+import com.hussar.dc.da.hxbisys.jpa.entity.demo.DocumentEntity;
+import com.hussar.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity;
+import com.hussar.dc.scs.frm.base.common.type.PageType;
+import com.hussar.dc.scs.frm.cdf.TempletGenerator;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.ApiDesc;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.CategoryDesc;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.PageDesc;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.PageFieldDesc;
 
 /**
  * @author XiaoYi

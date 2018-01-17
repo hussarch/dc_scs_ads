@@ -19,7 +19,7 @@
       }
     ]
   },
-  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity",
+  "clazz": "com.hussar.dc.da.hxbisys.jpa.entity.demo.QuestionAnswerEntity",
   "fields": [
     {
       "label": "主键",

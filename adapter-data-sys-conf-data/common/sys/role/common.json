@@ -2,7 +2,7 @@
   "name": "角色",
   "mainPage": "table",
   "renderedJs": "List.js",
-  "clazz": "com.shhxzq.dc.scs.frm.core.jpa.entity.common.RoleEntity",
+  "clazz": "com.hussar.dc.scs.frm.core.jpa.entity.common.RoleEntity",
   "fields": [
     {
       "label": "主键",
@@ -85,7 +85,7 @@
   },
   "dicts": {
     "users": {
-      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.scs.frm.core.jpa.entity.common.UserEntity where  1=1"
+      "entityDictHql": "select id as key, name as value from com.hussar.dc.scs.frm.core.jpa.entity.common.UserEntity where  1=1"
     }
   }
 }

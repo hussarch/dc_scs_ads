@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.shhxzq.dc.scs</groupId>
+    <groupId>com.hussar.dc.scs</groupId>
     <artifactId>adapter-data-sys</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.shhxzq.dc.scs</groupId>
+  <groupId>com.hussar.dc.scs</groupId>
   <artifactId>adapter-data-sys-conf-data-generator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>conf-data-generator</name>
@@ -23,12 +23,12 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-    	<groupId>com.shhxzq.dc.scs</groupId>
+    	<groupId>com.hussar.dc.scs</groupId>
     	<artifactId>scs-frame-cdg</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
-    	<groupId>com.shhxzq.dc.da</groupId>
+    	<groupId>com.hussar.dc.da</groupId>
     	<artifactId>hxbisys</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>

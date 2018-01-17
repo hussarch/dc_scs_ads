@@ -15,7 +15,7 @@
       }
     ]
   },
-  "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.DocumentEntity",
+  "clazz": "com.hussar.dc.da.hxbisys.jpa.entity.demo.DocumentEntity",
   "fields": [
     {
       "label": "主键",
@@ -40,7 +40,7 @@
     {
       "label": "消息来源",
       "name": "sourceFrom",
-      "clazz": "com.shhxzq.dc.da.hxbisys.jpa.entity.demo.SourceFrom",
+      "clazz": "com.hussar.dc.da.hxbisys.jpa.entity.demo.SourceFrom",
       "type": "select"
     },
     {

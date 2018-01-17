@@ -23,7 +23,7 @@
 	</appender>
 	
 	
-	<logger name="com.shhxzq.dc.da" level="DEBUG" additivity="false">
+	<logger name="com.hussar.dc.da" level="DEBUG" additivity="false">
 		<appender-ref ref="file" />
 	</logger>
 

@@ -1,4 +1,4 @@
-package com.shhxzq.dc.scs.conf.data.generator;
+package com.hussar.dc.scs.conf.data.generator;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.shhxzq.dc.scs</groupId>
+    <groupId>com.hussar.dc.scs</groupId>
     <artifactId>adapter-data-sys</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.shhxzq.dc.scs</groupId>
+  <groupId>com.hussar.dc.scs</groupId>
   <artifactId>adapter-data-sys-conf-data</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Archetype - conf-data</name>

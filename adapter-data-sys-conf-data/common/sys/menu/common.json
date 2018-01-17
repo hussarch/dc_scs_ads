@@ -1,6 +1,6 @@
 {
   "name": "导航菜单",
-  "clazz": "com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity",
+  "clazz": "com.hussar.dc.scs.frm.core.jpa.entity.common.MenuEntity",
   "fields": [
     {
       "label": "主键",
@@ -27,7 +27,7 @@
     {
       "label": "父节点",
       "name": "parent",
-      "clazz": "com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity",
+      "clazz": "com.hussar.dc.scs.frm.core.jpa.entity.common.MenuEntity",
       "type": "select"
     },
     {
@@ -99,7 +99,7 @@
   ],
   "dicts": {
     "parent": {
-      "entityDictHql": "select id as key, name as value from com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity where  1=1"
+      "entityDictHql": "select id as key, name as value from com.hussar.dc.scs.frm.core.jpa.entity.common.MenuEntity where  1=1"
     }
   }
 }

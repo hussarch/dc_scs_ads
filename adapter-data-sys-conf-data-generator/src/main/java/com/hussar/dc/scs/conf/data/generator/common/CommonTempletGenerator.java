@@ -1,13 +1,13 @@
-package com.shhxzq.dc.scs.conf.data.generator.common;
+package com.hussar.dc.scs.conf.data.generator.common;
 
-import com.shhxzq.dc.scs.frm.base.common.type.PageType;
-import com.shhxzq.dc.scs.frm.cdf.TempletGenerator;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.ApiDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageDesc;
-import com.shhxzq.dc.scs.frm.cdf.templete.anotations.PageFieldDesc;
-import com.shhxzq.dc.scs.frm.core.jpa.entity.common.MenuEntity;
-import com.shhxzq.dc.scs.frm.core.jpa.entity.common.RoleEntity;
-import com.shhxzq.dc.scs.frm.core.jpa.entity.common.UserEntity;
+import com.hussar.dc.scs.frm.base.common.type.PageType;
+import com.hussar.dc.scs.frm.cdf.TempletGenerator;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.ApiDesc;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.PageDesc;
+import com.hussar.dc.scs.frm.cdf.templete.anotations.PageFieldDesc;
+import com.hussar.dc.scs.frm.core.jpa.entity.common.MenuEntity;
+import com.hussar.dc.scs.frm.core.jpa.entity.common.RoleEntity;
+import com.hussar.dc.scs.frm.core.jpa.entity.common.UserEntity;
 
 /**
  * @author XiaoYi
